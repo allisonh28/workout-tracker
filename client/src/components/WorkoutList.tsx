@@ -17,6 +17,7 @@ export default function WorkoutList() {
 
   return (
     <div>
+        
       {workouts.map(w => (
         <div key={w._id}>
           <p><strong>{w.name}</strong></p>
